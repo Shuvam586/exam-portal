@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f6f3f3;
+    color: #eddac1;
+}
+
+.image {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    background: #cc9292f7;
+    border-top-left-radius: 50%;
+}
+
+.image img {
+    width: 30vw;
+}
+
+.form {
+    width: 30vw;
+    background: #3f3d56;
+    height: 20vw;
+    margin-top: 0.5vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+input {
+    outline: none;
+    border: none;
+    font-family: inherit;
+    color: #f2f2f2;
+    font-weight: 200;
+}
+
+input::placeholder {
+    color: #f2f2f2;
+    font-weight: 200;
+}
+
+.input-field {
+    display: flex;
+    background: #ca9293;
+    border: 0.5em solid #3f3d56;
+    padding: 0.5vw 1vw;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 23px;
+    transition: 400ms;
+}
+
+.input-field:hover {
+    border: 0.5em solid #eddac1;
+}
+
+.input-field input {
+    margin-left: 1vw;
+    background: #ca9293;
+}
+
+.material-icons {
+    color: #eddac1;
+}
+
+.submit{
+    width: fit-content;
+    padding: 0.5vw 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ca9293;
+    border-radius: 23px;
+    border: 0.5em solid #3f3d56;
+    font-weight: 200;
+    text-decoration: none;
+    color: #f2f2f2;
+    transition: 400ms;
+}
+
+.submit:hover {
+    background: #eddac1;
+    border: 0.5em solid #ca9293;
+    color: #3f3d56;
+}

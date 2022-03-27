@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.baksho {
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-rows: 1fr 4fr;
+}
+
+.header {
+    background: #f2ededb0;
+    color: #7e7878;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #b6aeae;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.header-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-heading h2 {
+    font-weight: 400;
+    font-size: 2.5em;
+    padding-left: 2vw;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-icons span {
+    font-size: 1.8em;
+
+    /* transitions */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.header-icons span:hover {
+    font-size: 2.4em;
+}
+
+#lightbulb:hover {color: rgb(201, 201, 201);}   
+#notifications:hover {color: #86A2F7;}
+#account_circle:hover {color: #E2CA87;}
+#help:hover {color: #4dbd52;}
+#logout:hover {color: #EC7262;}
+
+.body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 1.5fr 1fr;
+}
+
+.progress-card {
+    background: #cbd8ff85;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #86A2F7;
+    overflow: hidden;
+}
+
+.progress-card img {
+    width: 50%;
+    padding: 2vh;
+    padding-top: 3vh;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    color: #7e7878;
+}
+
+.social-card {
+    background: #f2ededb0;
+    color: inherit;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #b6aeae;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.social-card a {
+    color: inherit;
+}
+
+.small-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.small-card {
+    color: #fff;    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+}
+
+.small-card img {
+    width: 50%;
+}
+
+#fees {
+    background: #EC726266;
+    color: #7e7878;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #EC7262;
+}
+
+#repo {
+    background: #4dbd5287;
+    color: #7e7878;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #4dbd52;
+}
+
+#exams {
+    background: #e2ca879e;
+    color: #7e7878;
+    margin: 1vw;
+    border-radius: 23px;
+    border: 3px solid #E2CA87;
+}
+
+.social-card * {
+    font-size: 1.2em;
+    color: #7e7878;
+
+    /* transitions */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-brands:hover, .fa-solid:hover {
+    font-size: 1.5em;
+}
+
+.fa-instagram:hover {color: #c787e2;}
+.fa-twitter:hover {color: #87b8e2;}
+.fa-youtube:hover {color: #e86666;}
+.fa-github:hover {color: #5c5c5c;}
+.fa-envelope:hover {color: #aee287;}
+
+.banners {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.banner {
+    width: 100%;
+    background: #86A2F7;
+    padding-left: 1.5vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+#fees .banner {background: #e86666;}
+
+#repo .banner {background: #4dbd52;}
+
+#exams .banner {background: #E2CA87;}
+
+.img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-card img {
+    width: 85%;
+}
+
+.sochal {
+    color: inherit;
+}
+
+.sochal span {
+    color: inherit;
+}
